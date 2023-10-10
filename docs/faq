@@ -6,7 +6,9 @@ Check out [this page](join) for more information.
 
 ### Why did we create The Balance?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2N2_tCmCZxE?si=5Z5SHB--crsj5Uz7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2N2_tCmCZxE?si=5Z5SHB--crsj5Uz7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ### What are we doing now?
 
