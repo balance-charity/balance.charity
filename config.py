@@ -6,7 +6,7 @@ refresh     = 0
 
 appname     = 'balance'
 version     = '0.1'
-source      = 'https://github.com/underground-software/thebalancejerusalem.org'
+source      = 'https://github.com/underground-software/balance.charity'
 
 radius_port = '9098'
 
