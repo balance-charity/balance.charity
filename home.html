@@ -1,41 +1,61 @@
-<!doctype html>
 <html>
 	<head>
-		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	</head>
-	<body>
-		<div class="logo">
-			<img src="images/logo.png" class="logo" alt="[The Balance] logo" />
-			<h1 class="title">The Balance</h1>
+	<body style="background-color: #e6eeff;">
+		<div class="navbar navbar-expand-lg" style="background-color: #0033cc;" data-bs-theme="dark">
+			<div class="container-fluid">
+				<a href="/home.html" class="navbar-brand">The Balance</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+					  <li class="nav-item">
+						<a class="nav-link" aria-current="page" href="/about.html">About Us</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" aria-current="page" href="/testimonials.html">Testimonials</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" aria-current="page" href="/faq.html">FAQ</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" aria-current="page" href="/join.html">Get Involved</a>
+					  </li>
+					</ul>
+				</div>
+			</div>			
 		</div>
-		<hr />
-		<div class="navbar navbar-expand-lg">
-			<a href="/home.html" class="navbar-brand">Home</a>
-			<a href="/about.html" class="navbar-brand">About Us</a>
-			<a href="/testimonials.html" class="navbar-brand">Testimonials</a>
-			<a href="/faq.html" class="navbar-brand">FAQ</a>
-			<a href="/join.html" class="navbar-brand">Get Involved</a>
-		</div>
-		<hr />
 
-		<div class="container">
+		<div class="container" style="border:1px solid #cecece; min-height: 100%; max-width: 75%; background-color: white;" >
 
+			<hr/>
 			<h2> Our Mission </h2>
+			<hr/>
 
-			The Balance seeks to save at-risk youth from falling prey
-			to violence, drug abuse, and sexual assault
-			on the streets of Jerusalem and beyond.
-			We foster a space that provides the emotional,
-			physical, and spiritual support at-risk youth
-			need to rise above their circumstances
-			and develop their full potential.
+			<p class="lead">
+				The Balance seeks to save at-risk youth from falling prey
+				to violence, drug abuse, and sexual assault
+				on the streets of Jerusalem and beyond.
+				<br>
+				We foster a space that provides the emotional,
+				physical, and spiritual support at-risk youth
+				need to rise above their circumstances
+				and develop their full potential.
+			</p>
 
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ej0sryIy_do?si=WBDxIKgFEgWUmuyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+			<div class="row" style="padding-top: 56.25%; position: relative; overflow: hidden;">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/Ej0sryIy_do?si=WBDxIKgFEgWUmuyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-2"></div>
 			</div>
-		</div><hr />
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	</body>
 </html>
